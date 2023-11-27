@@ -1,0 +1,10 @@
+@import "./blocks/list";
+@import "./blocks/separator";
+
+.is-style-box-shadow {
+	box-shadow: 0 10px 100px 0 rgba(21, 15, 151, 0.14);
+}
+
+footer.wp-block-template-part {
+	margin: 0;
+}

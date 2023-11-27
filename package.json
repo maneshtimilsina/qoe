@@ -1,0 +1,79 @@
+{
+	"name": "qoe",
+	"version": "1.0.0",
+	"description": "",
+	"author": "",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"wordpress",
+		"theme"
+	],
+	"homepage": "https://github.com/qoewp/qoe/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/qoewp/qoe/"
+	},
+	"bugs": {
+		"url": "https://github.com/qoewp/qoe/issues"
+	},
+	"engines": {
+		"node": "^18.17.1",
+		"pnpm": "^8.6.7"
+	},
+	"browserslist": "> 1%, not dead",
+	"packtor": {
+		"files": [
+			"**/*",
+			"!*.js",
+			"!*.lock",
+			"!*.map",
+			"!*.md",
+			"!*.yaml",
+			"!composer.json",
+			"!easy-replace-in-files.json",
+			"!package.json",
+			"!src/**/*",
+			"!vendor/**/*"
+		]
+	},
+	"devDependencies": {
+		"@babel/core": "^7.22.17",
+		"@babel/preset-env": "^7.22.15",
+		"@wordpress/scripts": "^26.12.0",
+		"browser-sync": "^2.29.3",
+		"dotenv": "^16.3.1",
+		"easy-replace-in-files": "^1.0.3",
+		"gulp": "^4.0.2",
+		"gulp-babel": "^8.0.0",
+		"gulp-dart-sass": "^1.1.0",
+		"gulp-environments": "^1.0.1",
+		"gulp-postcss": "^9.0.1",
+		"gulp-rename": "^2.0.0",
+		"gulp-rtlcss": "^2.0.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"husky": "^8.0.3",
+		"packtor": "^1.0.2",
+		"postcss": "^8.4.29",
+		"postcss-preset-env": "^9.1.3",
+		"shx": "^0.3.4"
+	},
+	"scripts": {
+		"dev": "pnpm run build && gulp",
+		"build": "gulp build",
+		"prod": "gulp build --env production",
+		"preinstall": "npx only-allow pnpm",
+		"pot": "composer run-script pot",
+		"prepare": "husky install && pnpm run setup:husky && composer install",
+		"setup:husky": "pnpm dlx husky add .husky/pre-commit 'pnpm dlx lint-staged'",
+		"lint:css": "wp-scripts lint-style 'src/**/*.{css,scss}'",
+		"lint:css:fix": "wp-scripts lint-style 'src/**/*.{css,scss}' --fix",
+		"lint:js": "wp-scripts lint-js ./src",
+		"lint:js:fix": "wp-scripts lint-js gulpfile.js ./src --fix",
+		"lint:json": "wp-scripts format *.json ./styles",
+		"lint:pkg": "wp-scripts lint-pkg-json",
+		"version": "easy-replace-in-files",
+		"ready": "pnpm run version && pnpm run pot && shx rm -rf assets/ && pnpm run prod",
+		"predeploy": "pnpm run ready",
+		"deploy": "packtor"
+	}
+}

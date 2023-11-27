@@ -1,0 +1,44 @@
+ul > li > a,
+ol > li > a {
+  text-decoration: inherit;
+}
+
+ul.is-style-none {
+  list-style-type: none;
+  padding-right: 0;
+}
+ul.is-style-square {
+  list-style-type: square;
+}
+
+hr.wp-block-separator.has-background {
+  height: 2px !important;
+}
+hr.wp-block-separator.is-style-dots {
+  height: auto !important;
+}
+hr.wp-block-separator.is-style-dotted {
+  width: 100% !important;
+  border-bottom: none !important;
+  height: 1px !important;
+  background: repeating-linear-gradient(-90deg, currentcolor, currentcolor 2px, transparent 2px, transparent 6px) !important;
+}
+hr.wp-block-separator.is-style-wide-thin-line {
+  height: 1px !important;
+  border-width: 1px !important;
+  width: 100% !important;
+}
+hr.wp-block-separator.is-style-left-aligned {
+  margin-right: 0 !important;
+}
+hr.wp-block-separator.is-style-right-aligned {
+  margin-left: 0 !important;
+}
+
+.is-style-box-shadow {
+  box-shadow: 0 10px 100px 0 rgba(21, 15, 151, 0.14);
+}
+
+footer.wp-block-template-part {
+  margin: 0;
+}

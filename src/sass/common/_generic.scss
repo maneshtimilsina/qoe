@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.is-style-box-shadow {
+	box-shadow: 0 10px 100px 0 rgba(21, 15, 151, 0.14);
+}
+
+.wp-block-image {
+	margin-block: var(--wp--preset--spacing--small);
+}
+
+footer.wp-block-template-part {
+	margin: 0;
+}

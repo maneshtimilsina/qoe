@@ -1,0 +1,16 @@
+ul > li > a,
+ol > li > a {
+	text-decoration: inherit;
+}
+
+ul {
+
+	&.is-style-none {
+		list-style-type: none;
+		padding-inline-start: 0;
+	}
+
+	&.is-style-square {
+		list-style-type: square;
+	}
+}

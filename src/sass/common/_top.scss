@@ -1,0 +1,51 @@
+#back-to-top {
+	position: fixed;
+	right: 20px;
+	bottom: 76px;
+	z-index: 99;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	place-content: center;
+	width: 48px;
+	height: 48px;
+	border-radius: 6px;
+	box-shadow: 0 0 12px rgba(79, 76, 60, 0.2);
+	background-color: rgba(255, 255, 255, 0.85);
+	color: #111;
+	cursor: pointer;
+	visibility: hidden;
+	opacity: 0;
+}
+
+@media (min-width: 48em) {
+
+	#back-to-top {
+		bottom: 108px;
+	}
+}
+
+@media (min-width: 64em) {
+
+	#back-to-top {
+		bottom: 135px;
+	}
+}
+
+#back-to-top.is-visible {
+	visibility: visible;
+	opacity: 1;
+}
+
+#back-to-top svg {
+	fill: #111;
+	transition: all 0.25s;
+}
+
+#back-to-top:hover {
+	background-color: #fff;
+}
+
+#back-to-top:hover svg {
+	fill: #008aff;
+}
