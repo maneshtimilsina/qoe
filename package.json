@@ -32,8 +32,7 @@
 			"!composer.json",
 			"!easy-replace-in-files.json",
 			"!package.json",
-			"!src/**/*",
-			"!vendor/**/*"
+			"!src/**/*"
 		]
 	},
 	"devDependencies": {
@@ -73,7 +72,8 @@
 		"lint:pkg": "wp-scripts lint-pkg-json",
 		"version": "easy-replace-in-files",
 		"ready": "pnpm run version && pnpm run pot && shx rm -rf assets/ && pnpm run prod",
-		"predeploy": "pnpm run ready",
+    "ready:vendor": "shx rm -rf vendor/ && composer install --no-dev --no-scripts -o",
+		"predeploy": "pnpm run ready && pnpm run ready:vendor",
 		"deploy": "packtor"
 	}
 }
