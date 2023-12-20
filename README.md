@@ -1,11 +1,11 @@
 # Qoe
 
-WordPress FSE theme for WooCommerce.
+Qoe is a minimal, clean, and powerful WordPress block theme for WooCommerce.
 
 # Getting Started
 
 - [Home Page](https://maneshtimilsina.com/themes/qoe/)
-- [View Demo](https://qoe.maneshtimilsina.com/)
+- [View Demo](https://qoe.wpmanesh.com/)
 - [GitHub Repo](https://github.com/maneshtimilsina/qoe/)
 
 # Theme Preview
