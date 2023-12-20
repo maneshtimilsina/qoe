@@ -12,6 +12,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'QOE_VERSION', '1.0.0' );
 define( 'QOE_DIR', rtrim( get_template_directory(), '/' ) );
 define( 'QOE_URL', rtrim( get_template_directory_uri(), '/' ) );
+
+// Load autoload.
+if ( file_exists( QOE_DIR . '/vendor/autoload.php' ) ) {
+	require_once QOE_DIR . '/vendor/autoload.php';
+}
+
 /**
  * Theme setup.
  *
@@ -126,3 +132,31 @@ add_action( 'wp_footer', 'qoe_add_back_to_top' );
 if ( class_exists( 'WooCommerce', false ) ) {
 	require_once QOE_DIR . '/inc/woocommerce.php';
 }
+
+/**
+ * Add admin notice.
+ *
+ * @since 1.0.0
+ */
+function qoe_add_admin_notice() {
+	\Nilambar\AdminNotice\Notice::init(
+		array(
+			'slug' => 'qoe',
+			'type' => 'theme',
+			'name' => esc_html__( 'Qoe', 'qoe' ),
+		)
+	);
+}
+
+add_action( 'admin_init', 'qoe_add_admin_notice' );
+
+/**
+ * Add Buy Me a Coffee on admin notice.
+ *
+ * @since 1.0.0
+ */
+function qoe_add_donate_link() {
+	echo '<span style="font-weight: bold;"><a href="https://www.buymeacoffee.com/maneshtimilsina" target="_blank">Buy Me a Coffee</a></span>';
+}
+
+add_action( 'qoe_after_admin_notice_link_items', 'qoe_add_donate_link' );

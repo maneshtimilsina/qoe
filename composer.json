@@ -4,7 +4,8 @@
 	"license": "GPL-2.0-or-later",
 	"homepage": "https://github.com/qoewp/qoe/",
 	"require": {
-		"php": ">=5.6"
+		"php": ">=5.6",
+		"ernilambar/wp-admin-notice": "^1.0"
 	},
 	"require-dev": {
 		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",

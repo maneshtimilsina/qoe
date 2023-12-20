@@ -17,9 +17,9 @@ Qoe is distributed under the terms of the GNU GPL.
 
 == Images [CCO License] ==
 
-Image for theme screenshot, Copyright Creatsy
-License: Extended Commercial
-Source: https://creatsy.com/1787683157-20oz-sublimation-skinny-tumbler-mockup-set
+Image for theme screenshot, Copyright Freestocks.org
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://stocksnap.io/photo/heel-white-VW2UQE3XYO
 
 * Icons are self created and licensed under GPL.
 
@@ -29,5 +29,5 @@ License URL: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 
 == Changelog ==
 
-= 1.0.0 - November 27, 2023 =
+= 1.0.0 - December 20, 2023 =
 * Initial release
