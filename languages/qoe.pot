@@ -15,7 +15,8 @@ msgstr ""
 "X-Domain: qoe\n"
 
 #. Theme Name of the theme
-#: functions.php:73
+#: functions.php:79
+#: functions.php:146
 msgid "Qoe"
 msgstr ""
 
@@ -35,27 +36,27 @@ msgstr ""
 msgid "https://maneshtimilsina.com/"
 msgstr ""
 
-#: functions.php:88
+#: functions.php:94
 msgid "Square"
 msgstr ""
 
-#: functions.php:89
+#: functions.php:95
 msgid "None"
 msgstr ""
 
-#: functions.php:92
+#: functions.php:98
 msgid "Dotted"
 msgstr ""
 
-#: functions.php:93
+#: functions.php:99
 msgid "Wide Thin Line"
 msgstr ""
 
-#: functions.php:94
+#: functions.php:100
 msgid "Left Aligned"
 msgstr ""
 
-#: functions.php:95
+#: functions.php:101
 msgid "Right Aligned"
 msgstr ""
 
