@@ -2,7 +2,7 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Qoe 1.0.0\n"
+"Project-Id-Version: Qoe 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/qoe\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,14 +65,69 @@ msgctxt "Pattern title"
 msgid "A 404 page"
 msgstr ""
 
+#: patterns/404.php:20
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:24
+msgid "Oops! Page not found"
+msgstr ""
+
+#: patterns/404.php:28
+msgid "Sorry but the page you are looking for could not be found. It might have been deleted, renamed, or is temporarily unavailable. You can search the site below, or return to the front page."
+msgstr ""
+
+#: patterns/404.php:39
+msgid "Go to Home"
+msgstr ""
+
 #: patterns/cta.php
 msgctxt "Pattern title"
 msgid "Call to Action"
 msgstr ""
 
+#: patterns/cta.php:26
+msgid "Summer Sales"
+msgstr ""
+
+#: patterns/cta.php:30
+msgid "Get 25% Off!"
+msgstr ""
+
+#: patterns/cta.php:39
+#: patterns/quick-promotions.php:32
+#: patterns/quick-promotions.php:53
+#: patterns/quick-promotions.php:71
+msgid "Shop Now"
+msgstr ""
+
 #: patterns/features.php
 msgctxt "Pattern title"
 msgid "Features"
+msgstr ""
+
+#: patterns/features.php:27
+msgid "Secure Payment"
+msgstr ""
+
+#: patterns/features.php:31
+msgid "100% security guaranteed"
+msgstr ""
+
+#: patterns/features.php:45
+msgid "24/7 Support"
+msgstr ""
+
+#: patterns/features.php:49
+msgid "Online, phone and email support"
+msgstr ""
+
+#: patterns/features.php:63
+msgid "Free Shipping"
+msgstr ""
+
+#: patterns/features.php:67
+msgid "Free shipping above $599"
 msgstr ""
 
 #: patterns/footer.php
@@ -160,9 +215,29 @@ msgctxt "Pattern title"
 msgid "Hero"
 msgstr ""
 
+#: patterns/hero.php:16
+msgid "Best in Town"
+msgstr ""
+
+#: patterns/hero.php:21
+msgid "GIFTS, COSMETICS,"
+msgstr ""
+
+#: patterns/hero.php:25
+msgid "FOOTWEAR &amp; CLOTHING"
+msgstr ""
+
+#: patterns/hero.php:35
+msgid "SHOP NOW"
+msgstr ""
+
 #: patterns/latest-products.php
 msgctxt "Pattern title"
 msgid "Latest Products"
+msgstr ""
+
+#: patterns/latest-products.php:24
+msgid "New In Store"
 msgstr ""
 
 #: patterns/our-brands.php
@@ -170,14 +245,46 @@ msgctxt "Pattern title"
 msgid "Our Brands"
 msgstr ""
 
+#: patterns/our-brands.php:24
+msgid "Best Selling Brands"
+msgstr ""
+
 #: patterns/products-on-sale.php
 msgctxt "Pattern title"
+msgid "Products On Sale"
+msgstr ""
+
+#: patterns/products-on-sale.php:24
 msgid "Products On Sale"
 msgstr ""
 
 #: patterns/quick-promotions.php
 msgctxt "Pattern title"
 msgid "Quick Promotions"
+msgstr ""
+
+#: patterns/quick-promotions.php:23
+msgid "Spring Collection"
+msgstr ""
+
+#: patterns/quick-promotions.php:27
+msgid "New Arrivals"
+msgstr ""
+
+#: patterns/quick-promotions.php:44
+msgid "Original"
+msgstr ""
+
+#: patterns/quick-promotions.php:48
+msgid "Footwear"
+msgstr ""
+
+#: patterns/quick-promotions.php:62
+msgid "Imported"
+msgstr ""
+
+#: patterns/quick-promotions.php:66
+msgid "Perfumes"
 msgstr ""
 
 #: styles/blue.json

@@ -24,11 +24,11 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"left","fontSize":"large"} -->
-<h2 class="wp-block-heading has-text-align-left has-large-font-size">Secure Payment</h2>
+<h2 class="wp-block-heading has-text-align-left has-large-font-size"><?php esc_html_e( 'Secure Payment', 'qoe' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"left","textColor":"background"} -->
-<p class="has-text-align-left has-background-color has-text-color">100% security guaranteed</p>
+<p class="has-text-align-left has-background-color has-text-color"><?php esc_html_e( '100% security guaranteed', 'qoe' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -42,11 +42,11 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"left","fontSize":"large"} -->
-<h2 class="wp-block-heading has-text-align-left has-large-font-size">24/7 Support</h2>
+<h2 class="wp-block-heading has-text-align-left has-large-font-size"><?php esc_html_e( '24/7 Support', 'qoe' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"left","textColor":"background"} -->
-<p class="has-text-align-left has-background-color has-text-color">Online, phone and email support</p>
+<p class="has-text-align-left has-background-color has-text-color"><?php esc_html_e( 'Online, phone and email support', 'qoe' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -60,11 +60,11 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"left","fontSize":"large"} -->
-<h2 class="wp-block-heading has-text-align-left has-large-font-size">Free Shipping</h2>
+<h2 class="wp-block-heading has-text-align-left has-large-font-size"><?php esc_html_e( 'Free Shipping', 'qoe' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"left","textColor":"background"} -->
-<p class="has-text-align-left has-background-color has-text-color">Free shipping above $599</p>
+<p class="has-text-align-left has-background-color has-text-color"><?php esc_html_e( 'Free shipping above $599', 'qoe' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
