@@ -36,8 +36,8 @@
 		]
 	},
 	"devDependencies": {
-		"@babel/core": "^7.22.17",
-		"@babel/preset-env": "^7.22.15",
+		"@babel/core": "^7.23.6",
+		"@babel/preset-env": "^7.23.6",
 		"@wordpress/scripts": "^26.12.0",
 		"browser-sync": "^2.29.3",
 		"dotenv": "^16.3.1",
