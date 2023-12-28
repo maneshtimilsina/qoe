@@ -13,16 +13,16 @@
 <div class="wp-block-group alignfull has-quaternary-background-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"align":"left","placeholder":"Write title…","fontSize":"base"} -->
-<p class="has-text-align-left has-base-font-size">Best in Town</p>
+<p class="has-text-align-left has-base-font-size"><?php esc_html_e( 'Best in Town', 'qoe' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading">GIFTS, COSMETICS,</h2>
+<h2 class="wp-block-heading"><?php esc_html_e( 'GIFTS, COSMETICS,', 'qoe' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">FOOTWEAR &amp; CLOTHING</h2>
+<h2 class="wp-block-heading"><?php esc_html_e( 'FOOTWEAR &amp; CLOTHING', 'qoe' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|xx-small"} -->
@@ -32,7 +32,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":"0px"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="border-radius:0px">SHOP NOW</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="border-radius:0px"><?php esc_html_e( 'SHOP NOW', 'qoe' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->

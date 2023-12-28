@@ -29,5 +29,8 @@ License URL: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 
 == Changelog ==
 
+= 1.0.1 - December 28, 2023 =
+* Translation ready
+
 = 1.0.0 - December 20, 2023 =
 * Initial release

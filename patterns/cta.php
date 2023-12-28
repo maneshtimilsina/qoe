@@ -23,11 +23,11 @@
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"510px"} -->
 <div class="wp-block-column" style="flex-basis:510px"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|large","right":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|xx-small"}},"backgroundColor":"quaternary","className":"is-style-box-shadow","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group is-style-box-shadow has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph -->
-<p>Summer Sales</p>
+<p><?php esc_html_e( 'Summer Sales', 'qoe' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size">Get 25% Off!</h2>
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Get 25% Off!', 'qoe' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|xx-small"} -->
@@ -36,7 +36,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Shop Now</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Shop Now', 'qoe' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

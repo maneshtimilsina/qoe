@@ -21,7 +21,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-<h2 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color">New In Store</h2>
+<h2 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"><?php esc_html_e( 'New In Store', 'qoe' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
