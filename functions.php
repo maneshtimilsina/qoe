@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit( 'Direct script access denied.' );
 }
 
-define( 'QOE_VERSION', '1.0.1' );
+define( 'QOE_VERSION', '1.0.2' );
 define( 'QOE_DIR', rtrim( get_template_directory(), '/' ) );
 define( 'QOE_URL', rtrim( get_template_directory_uri(), '/' ) );
 
