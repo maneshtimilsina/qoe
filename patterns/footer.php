@@ -56,7 +56,7 @@
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><a href="#"><?php esc_html_e( 'Help Central', 'qoe' ); ?></a></li>
+<li><a href="#"><?php esc_html_e( 'Help Center', 'qoe' ); ?></a></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:column -->

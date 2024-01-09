@@ -173,7 +173,7 @@ msgid "Documentation"
 msgstr ""
 
 #: patterns/footer.php:59
-msgid "Help Central"
+msgid "Help Center"
 msgstr ""
 
 #: patterns/footer.php:66
