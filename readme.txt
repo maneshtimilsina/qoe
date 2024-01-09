@@ -29,6 +29,10 @@ License URL: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 
 == Changelog ==
 
+= 1.0.3 - January 09, 2023 =
+* Fix typo
+* Reduce blog and archive pages space
+
 = 1.0.2 - January 05, 2023 =
 * Fix nav
 
