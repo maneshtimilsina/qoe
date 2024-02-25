@@ -5,7 +5,7 @@ ol > li > a {
 
 ul.is-style-none {
   list-style-type: none;
-  padding-right: 0;
+  padding-inline-start: 0;
 }
 ul.is-style-square {
   list-style-type: square;
