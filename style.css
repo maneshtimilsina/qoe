@@ -7,7 +7,7 @@ Description: Qoe is a minimal, clean, and powerful WordPress block theme for Woo
 Requires at least: 5.9
 Tested up to: 6.4
 Requires PHP: 5.6
-Version: 1.0.3
+Version: 1.0.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: qoe
@@ -33,8 +33,7 @@ body {
 }
 
 .wp-block-image {
-  margin-top: var(--wp--preset--spacing--small);
-  margin-bottom: var(--wp--preset--spacing--small);
+  margin-block: var(--wp--preset--spacing--small);
 }
 
 footer.wp-block-template-part {
@@ -133,8 +132,6 @@ textarea:focus {
   display: grid;
   align-content: center;
   justify-content: center;
-  align-content: center;
-  justify-content: center;
   place-content: center;
   width: 48px;
   height: 48px;
@@ -182,7 +179,7 @@ ol > li > a {
 
 ul.is-style-none {
   list-style-type: none;
-  padding-left: 0;
+  padding-inline-start: 0;
 }
 ul.is-style-square {
   list-style-type: square;

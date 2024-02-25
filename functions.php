@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit( 'Direct script access denied.' );
 }
 
-define( 'QOE_VERSION', '1.0.3' );
+define( 'QOE_VERSION', '1.0.4' );
 define( 'QOE_DIR', rtrim( get_template_directory(), '/' ) );
 define( 'QOE_URL', rtrim( get_template_directory_uri(), '/' ) );
 
@@ -156,7 +156,7 @@ add_action( 'admin_init', 'qoe_add_admin_notice' );
  * @since 1.0.0
  */
 function qoe_add_donate_link() {
-	echo '<span style="font-weight: bold;"><a href="https://www.buymeacoffee.com/maneshtimilsina" target="_blank">Buy Me a Coffee</a></span>';
+	echo '<span style="font-weight: bold;"><a href="https://ko-fi.com/maneshtimilsina" target="_blank">Buy Me a Coffee</a></span>';
 }
 
 add_action( 'qoe_after_admin_notice_link_items', 'qoe_add_donate_link' );

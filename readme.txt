@@ -12,7 +12,7 @@ Qoe is a minimal, clean, and powerful WordPress block theme for WooCommerce.
 
 == Copyright ==
 
-Qoe WordPress Theme, (C) 2023 Manesh Timilsina
+Qoe WordPress Theme, (C) 2024 Manesh Timilsina
 Qoe is distributed under the terms of the GNU GPL.
 
 == Images [CCO License] ==
@@ -29,11 +29,14 @@ License URL: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 
 == Changelog ==
 
-= 1.0.3 - January 09, 2023 =
+= 1.0.4 - February 25, 2024 =
+* Update links and changelog
+
+= 1.0.3 - January 09, 2024 =
 * Fix typo
 * Reduce blog and archive pages space
 
-= 1.0.2 - January 05, 2023 =
+= 1.0.2 - January 05, 2024 =
 * Fix nav
 
 = 1.0.1 - December 28, 2023 =
